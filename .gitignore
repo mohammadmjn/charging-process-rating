@@ -1,0 +1,11 @@
+# pycache
+__pycache__/
+
+# vscode
+.vscode/
+
+#virtual environment
+venv/
+
+# log file
+runtime.log

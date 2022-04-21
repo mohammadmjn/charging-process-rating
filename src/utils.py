@@ -8,7 +8,7 @@ from src.error_utils import create_error_response, abort_with_response
 
 
 def process_payload(payload: Dict) -> Dict:
-    """Processes payload of the request to rate the CDR(s).
+    """Processes payload of the request to rate the CDR.
     """
     if not isinstance(payload, dict):
         response = create_error_response(
